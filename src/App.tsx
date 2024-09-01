@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       {" "}
-      <h1 className="p-10 text-5xl text-center text-red-600">Meals</h1>
+      <h1 className="p-10 text-5xl text-center text-red-800">Meals</h1>
       <div className="place-items-center gap-4 grid grid-cols-4">
         {meals.map((m) => (
           <div className="bg-base-100 shadow-xl w-64 h-[400px] card hover:scale-105">
